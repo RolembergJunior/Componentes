@@ -2,7 +2,7 @@
 
 export default function PhotoCard(){
     return(
-        <div className="bg-white w-[320px] h-[220px] p-5 space-y-2 rounded-xl shadow-md">
+        <div className="bg-white col-start-3 col-end-4 row-start-1 row-end-2 w-[320px] h-[220px] p-5 space-y-2 rounded-xl shadow-md">
             <img src="/MundoDaFoto.png" alt="Foto do card" />
             <div>
                 <h1 className="text-lg font-medium" >Mundo da Leitura</h1>

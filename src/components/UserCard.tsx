@@ -2,7 +2,7 @@
 
 export default function UserCard(){
     return(
-        <div className="relative flex flex-col justify-center bg-white w-[170px] h-[200px] space-y-3 rounded-xl p-4 shadow-lg" >
+        <div className="relative flex flex-col justify-center bg-white w-[200px] h-[200px] space-y-3 rounded-xl p-4 shadow-lg" >
             <img 
                 src="/discordFoto.jpg" 
                 alt="Foto do usuário" 

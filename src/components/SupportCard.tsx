@@ -2,7 +2,7 @@
 
 export default function SupportCard(){
     return(
-        <div className="relative flex flex-col justify-around bg-white w-[350px] h-[390px] shadow-xl rounded-xl p-3">
+        <div className="relative flex flex-col justify-around bg-white w-[400px] h-[370px] shadow-xl rounded-xl p-3">
             <h1 className="text-2xl font-semibold">Fale conosco</h1>
             <div className="flex items-center gap-3">
                 <img 
