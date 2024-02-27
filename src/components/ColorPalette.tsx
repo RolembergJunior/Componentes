@@ -9,7 +9,7 @@ export default function ColorPalette(){
             </div>
             <div className="bg-transparent flex flex-col gap-5 mt-10">
                 <div className="flex items-center gap-3">
-                    <div className="bg-white rounded-[50%] w-[65px] h-[60px]" />
+                    <div className="bg-white rounded-[50%] w-[50px] h-[45px]" />
                     <p className="text-[#828282]">FFFFFF</p>
                 </div>
 
