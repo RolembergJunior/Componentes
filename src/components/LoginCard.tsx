@@ -2,7 +2,7 @@
 
 export default function LoginCard(){
     return(
-        <div className="w-[400px] h-[320px] mx-auto bg-white rounded-xl shadow-lg space-y-3 p-4">
+        <div className="w-[400px] h-[320px] mx-auto bg-white rounded-xl shadow-lg space-y-3 p-4" key="a">
             <div>
                 <p className="font-medium">Seja Bem-vindo</p>
                 <h1 className="text-xl font-semibold" >Faça o login</h1>

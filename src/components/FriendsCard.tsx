@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function FriendsCard(){
     return(
-        <div className="bg-white w-[300px] h-[320px] rounded-xl shadow-xl p-3">
+        <div className="bg-white w-[300px] h-[320px] mx-auto rounded-xl shadow-xl p-3">
             <div className="flex justify-between my-3 items-center">
                 <h1 className="text-3xl font-semibold">Amigos</h1>
                 <a className="text-[#0F8E5E]" >Ver mais</a>

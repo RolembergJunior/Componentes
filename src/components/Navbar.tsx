@@ -9,7 +9,7 @@ export default function Navbar(){
     // ${ path === '/' ? 'border-b-4 border-b-[#0F8E5E] border-' : 'border-b-0' }
 
     return(
-        <div className="bg-white w-[400px] h-[80px] rounded-xl shadow-xl p-3">
+        <div className="bg-white w-[400px] h-[80px] rounded-xl shadow-xl mx-auto p-3">
             <nav className="my-5">
                 <ul className="flex items-center justify-around">
                     <div className="relative">

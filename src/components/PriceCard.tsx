@@ -24,7 +24,7 @@ export default function PriceCard() {
   };
 
   return (
-    <div className="flex flex-col justify-between bg-white w-[300px] h-[320px] p-4 rounded-xl shadow-lg">
+    <div className="flex flex-col justify-between bg-white w-[300px] h-[320px] mx-auto p-4 rounded-xl shadow-lg">
       <h1 className="text-xl font-medium">Preço</h1>
       <div className="flex justify-around items-center">
         <input
