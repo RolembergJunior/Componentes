@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from "react";
 import ColorPalette from "@/components/ColorPalette";
 import FriendsCard from "@/components/FriendsCard";
 import InformationCard from "@/components/InformationCard";
@@ -16,30 +17,30 @@ import ReactGridLayout from "react-grid-layout";
 export default function Home() {
 
   const layout = [
-    { i: "a", x: 0, y: 0, w: 2, h: 9 },
-    { i: "b", x: 0, y: 0, w: 2, h: 10 },
-    { i: "c", x: 0, y: 0, w: 2, h: 3 },
-    { i: "d", x: 2, y: 0, w: 1.5, h: 9 },
-    { i: "e", x: 2, y: 0, w: 1.5, h: 9 },
-    { i: "f", x: 2.4, y: 0, w: 2.9, h: 4 },
-    { i: "g", x: 4, y: -1, w: 1.5, h: 6.5 },
-    { i: "h", x: 4, y: -1, w: 1.5, h: 6.9 },
-    { i: "i", x: 4, y: -1, w: 1.5, h: 4.8 },
-    { i: "j", x: 7, y: 0, w: 1, h: 2 },
-    { i: "k", x: 4, y: 0, w: 1, h: 2 },
+    { i: "a", x: 0, y: 1, w: 1, h: 9 },
+    { i: "b", x: 0, y: 1, w: 1, h: 10 },
+    { i: "c", x: 0, y: 1, w: 1, h: 3 },
+    { i: "d", x: 1, y: -2, w: 1, h: 9 },
+    { i: "e", x: 1, y: -2, w: 1, h: 9 },
+    { i: "f", x: 1, y: -2, w: 2, h: 3.7 },
+    { i: "g", x: 2, y: -3, w: 1, h: 6.5 },
+    { i: "h", x: 2, y: -3, w: 1, h: 7.5 },
+    { i: "i", x: 2, y: -3, w: 1, h: 4.8 },
+    { i: "j", x: 3, y: -6, w: 1, h: 6 },
+    { i: "k", x: 3, y: -6, w: 1, h: 15 },
   ];
 
   return (
-    <div> 
+    <div className=""> 
       <ReactGridLayout
-        className="layout"
+        className="w-[80%] mx-auto layout"
         layout={layout}
-        cols={5}
+        cols={4}
         rowHeight={30}
-        width={1200}
+        width={1550}
       >
         <div key='a'>
-          <LoginCard />
+          <LoginCard/>
         </div>
         <div key='b'>
           <SupportCard />
@@ -71,27 +72,6 @@ export default function Home() {
         <div key='k'>
           <ColorPalette />
         </div>
-      {/* <div className="grid grid-cols-4 grid-rows-none w-[80%] h-[100vh] mx-auto">
-        <div className="col-start-1 col-end-2 space-y-10 my-8" >
-          <LoginCard/>
-          <SupportCard/>
-          <Navbar/>
-        </div>
-        <div className="row-start-1 row-end-1 col-start-2 col-end-4 mx-auto space-y-12 my-8">
-          <PriceCard/>
-          <FriendsCard/>
-          <ScearchCard/>
-        </div>
-        <div className="row-start-1 row-end-1 col-start-3 col-end-3 space-y-7 mx-auto my-8">
-          <PhotoCard/>
-          <InformationCard/>
-          <TagsCard/>
-        </div>
-        <div className="row-start-1 row-end-1 col-start-4 col-end-5 space-y-10 my-8">
-          <UserCard/>
-          <ColorPalette/>
-        </div>
-      </div> */}
       </ReactGridLayout>
     </div>
   );

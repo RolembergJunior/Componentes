@@ -5,6 +5,7 @@ import { Box, Slider } from "@mui/material";
 
 export default function PriceCard() {
   const [value, setValue] = useState<number[]>([25,50]);
+  const [] = useState<number[] | null>([])
 
   function valueText(){
     return `$${value}`;
@@ -53,12 +54,12 @@ export default function PriceCard() {
         />
     </Box>
       <div className="flex flex-wrap justify-between gap-3">
-        <p>Menos de $25</p>
-        <p>$25 a $50</p>
-        <p>$50 a $100</p>
-        <p>$100 a $200</p>
-        <p>$200 a $500</p>
-        <p>$500 e acima</p>
+        <button className="cursor-pointer" >Menos de $25</button>
+        <button className="cursor-pointer" >$25 a $50</button>
+        <button className="cursor-pointer" >$50 a $100</button>
+        <button className="cursor-pointer" >$100 a $200</button>
+        <button className="cursor-pointer" >$200 a $500</button>
+        <button className="cursor-pointer" >$500 e acima</button>
       </div>
       <p className="text-[#A1A1A1]">150 resultados encontrados</p>
     </div>

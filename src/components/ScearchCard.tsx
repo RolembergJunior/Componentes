@@ -2,7 +2,7 @@
 
 export default function ScearchCard(){
     return(
-        <div className="bg-white rounded-lg w-[650px] h-[130px] p-4 shadow-xl space-y-3">
+        <div className="bg-white rounded-lg w-[650px] h-[130px] mx-auto p-4 shadow-xl space-y-3">
             <h1 className="text-xl font-semibold">
                 Pesquisa
             </h1>
